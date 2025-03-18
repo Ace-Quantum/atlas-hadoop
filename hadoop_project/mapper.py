@@ -6,7 +6,9 @@ import sys
 
 def mapper():
     """nothing dynamic here
-    just do the thing"""
+    just do the thing
+    future Ace here:
+    this is actually extremely dynamic wtf past Ace"""
 
     for line in sys.stdin:
         line = line.strip()
