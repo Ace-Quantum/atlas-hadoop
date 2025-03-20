@@ -9,12 +9,19 @@ just do the thing
 future Ace here:
 this is actually extremely dynamic wtf past Ace"""
 
-for line in sys.stdin:
-    line = line.strip()
-    columns = line.split(',')
+def mapper():
+    for line in sys.stdin:
+        try:
+            line = line.strip()
+            columns = line.split(',')
 
-    id = columns[0]
-    company = columns[1]
-    totalyearly = columns[2]
+            id = columns[0]
+            company = columns[1]
+            totalyearly = columns[3]
 
-    print(f"{id}\t{company},{totalyearly}")
+            print(f"{id}\t{company},{totalyearly}")
+        except:
+            pass
+
+if __name__ == "__main__":
+    mapper()
