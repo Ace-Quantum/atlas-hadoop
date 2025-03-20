@@ -9,4 +9,4 @@ def deletedir(l):
     client = Client('localhost', 9000)
 
     for directory in l:
-        client.delete([directory], create_parent=True)
+        client.delete([directory], recurse=True)
