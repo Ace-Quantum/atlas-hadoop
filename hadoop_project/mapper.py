@@ -16,6 +16,6 @@ def mapper():
 
         id = columns[0]
         company = columns[1]
-        totalyearly = columns[3]
+        totalyearly = columns[2]
 
         print(f"{id}\t{company},{totalyearly}")

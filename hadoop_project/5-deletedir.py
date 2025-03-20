@@ -2,7 +2,7 @@
 
 from snakebite.client import Client
 
-def createdir(l):
+def deletedir(l):
     """l is a list of directories"""
 
     # unsure if we need to make the port, I'll confirm with Sean when I see him
