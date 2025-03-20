@@ -15,6 +15,7 @@ def deletedir(l):
 
     # David and I troubleshooted this and apparantly there's something 
     # in his print statement that is necessary
+    #   Turns out that hadoop needs "an opperation to be performed on the generator"
 
     for response in respones:
         print(response)
