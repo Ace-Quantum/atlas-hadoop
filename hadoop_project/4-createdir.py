@@ -17,8 +17,8 @@ def createdir(l):
     client = Client('localhost', 9000)
 
     for directory in l:
-        result = client.mkdir([directory], create_parent=True)
-        print(result)
+        for result in client.mkdir([directory], create_parent=True):
+            pass
 
     # Wow it actually is that easy
     # Nuts
