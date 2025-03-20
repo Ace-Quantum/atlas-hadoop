@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # So now we're introduced into using "snakebite"
 # Which is kinda badass? It was aparantly made by the internet archive
 # Which is cool af.

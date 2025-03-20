@@ -4,18 +4,17 @@
 
 import sys
 
-def mapper():
-    """nothing dynamic here
-    just do the thing
-    future Ace here:
-    this is actually extremely dynamic wtf past Ace"""
+"""nothing dynamic here
+just do the thing
+future Ace here:
+this is actually extremely dynamic wtf past Ace"""
 
-    for line in sys.stdin:
-        line = line.strip()
-        columns = line.split(',')
+for line in sys.stdin:
+    line = line.strip()
+    columns = line.split(',')
 
-        id = columns[0]
-        company = columns[1]
-        totalyearly = columns[2]
+    id = columns[0]
+    company = columns[1]
+    totalyearly = columns[2]
 
-        print(f"{id}\t{company},{totalyearly}")
+    print(f"{id}\t{company},{totalyearly}")
