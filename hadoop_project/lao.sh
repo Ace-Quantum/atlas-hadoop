@@ -7,4 +7,4 @@
 
 # Also I'm pretty sure this is how I refer to the parent directory
 
-hdfs dfs -put ../lao.txt /holbies/input/lao.txt
+hdfs dfs -put lao.txt /holbies/input/lao.txt
