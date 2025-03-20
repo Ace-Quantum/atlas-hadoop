@@ -5,6 +5,7 @@
 # So that's something neat.
 
 import sys
+import subprocess
 
 def reducer():
     """This reads from stdin???
